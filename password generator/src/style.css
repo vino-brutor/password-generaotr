@@ -1,0 +1,53 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: white;
+}
+
+.buttonCustom{
+    font-size: 20px;
+    border-width: 3px;
+    width: 150px;
+}
+
+.button-div{
+    display: flex;
+    gap: 40px;
+}
+
+.copied{
+    border-color: rgb(86, 143, 0);
+    border-width: 3px;
+    color: rgb(135, 224, 0);
+    background-color: rgb(141, 141, 141);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.div-password{
+    padding-top: 20px;
+    color: rgb(0, 136, 255);
+}
+
+@media(max-width:330px){
+    .title{
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .buttonCustom{
+        width: 80px;
+    }
+}
